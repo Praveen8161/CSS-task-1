@@ -1,0 +1,78 @@
+body{
+    margin: 0px;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    min-height: 100%;
+    height: 100%;
+}
+
+label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+.required:after{
+    content: " *";
+    color: red;
+}
+
+.name{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem;
+}
+
+.name span{
+    display: block;
+    margin: 0 ;
+}
+
+#name{
+    width: 25vw;
+    min-width: 100px;
+    border: 1px solid #495057;
+}
+
+#email{
+    width: 52.5vw;
+    margin-left:1px ;
+}
+
+
+input{
+    min-height: 1.3rem;
+}
+
+.fa-star{
+    color: #ccc;
+}
+
+.fa-star:hover,.fa-star.checked{
+    color: gold;
+}
+
+table{
+    width: 100%;
+    min-width: 500px;
+    text-align: center;
+    font-size: medium;
+    border-collapse: collapse;
+    word-wrap: break-word;
+}
+
+.tb-highlight{
+    background-color: rgb(207, 204, 204);
+}
+
+textarea{
+    min-width:90%;
+    min-height: 20%;
+}
+
+.btn-sub{
+    padding: 10px;
+    font-size: medium;
+}
+
